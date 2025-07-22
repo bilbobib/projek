@@ -1,0 +1,29 @@
+# 🌟 CARA MENJALANKAN STARLIGHT v4.0
+
+## 🚀 LANGKAH SEDERHANA:
+
+### 1. Persiapan Data (Opsional)
+Buat folder: C:/Mario/Semester 4/Komstat/UAS/data/
+Letakkan file berikut (jika ada):
+- data_master_clean.gpkg
+- distance_matrix_clean.rds  
+- file CSV dataset utama
+
+### 2. Jalankan Aplikasi
+Buka R/RStudio, lalu jalankan:
+source("STARLIGHT_UAS_LENGKAP.R")
+
+SELESAI! Aplikasi akan terbuka di browser.
+
+## ✅ YANG TELAH DIPERBAIKI:
+- Error korelasi → Diperbaiki dengan error handling
+- Aplikasi crash saat uji statistik → Semua tombol aman  
+- Fungsi deprecated → Diperbarui ke versi terbaru
+- Sumbu Y regresi tidak dinamis → Sumbu menyesuaikan data
+- Menu resampling → Dihapus sesuai instruksi
+- Metadata beranda kurang → Diperpanjang dengan 6 kolom
+- Tidak ada download → Semua output bisa diunduh
+- Bahasa campur → Konsisten Bahasa Indonesia
+
+## 🎓 SIAP UNTUK UAS!
+File yang diperlukan cukup 1 saja: STARLIGHT_UAS_LENGKAP.R
